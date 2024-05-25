@@ -55,13 +55,15 @@ export const Hero = () => {
             />
           </div>
         </div>
-        <div id="logos" className="caret-transparent w-full  lg:p-8 relative pb-40  m-10">
-        <motion.img
+        <div id="logos" className=" caret-transparent w-full    lg:p-8 relative pb-40  m-10">
+          <motion.img
             className=" z-10      
               absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 
               -ml-32
               -mt-48
                h-[285%]
+              
+
               lg:w-[100%] lg:h-[230%] lg:-ml-[30%] lg:-mt-[86%]
               xl:w-[70%] xl:-ml-[15%] xl:-mt-[61.5%] xl:h-[265%]              
               
