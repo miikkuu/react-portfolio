@@ -16,7 +16,7 @@ export const About = () => {
           transition={{ duration: 0.5 }}
           className="w-full lg:w-1/2 lg:p-8"
         >
-          <div className="pointer-events-none flex rounded-2xl items-center justify-center overflow-hidden h-[400px] w-[450px]">
+          <div className="pointer-events-none flex rounded-2xl items-center justify-center overflow-hidden h-[400px] w-[450px] object-cover ">
             <img
               className="rounded-2xl object-cover size-[170%]  object-right select-none "
               src={aboutImg}

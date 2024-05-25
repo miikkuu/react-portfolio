@@ -27,7 +27,7 @@ const Contact = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 2 }}
-        className=" text-center  bottom-10 right-10 bg-purple-800 text-white p-4 rounded-full custom-gradient  "
+        className=" text-center  bottom-10 right-10 bg-purple-800 text-white p-4 rounded-full custom-gradient mt-24 lg:mt-0"
         onClick={() => {
           window.scrollTo({ top: 0, behavior: "smooth" });
         }}
