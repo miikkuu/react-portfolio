@@ -59,10 +59,9 @@ export const Hero = () => {
         <motion.img
             className=" z-10      
               absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 
-              -ml-[30%]
-              -mt-[45.5%]
+              -ml-32
+              -mt-48
                h-[285%]
-               w-[60%]
               lg:w-[100%] lg:h-[230%] lg:-ml-[30%] lg:-mt-[86%]
               xl:w-[70%] xl:-ml-[15%] xl:-mt-[61.5%] xl:h-[265%]              
               
