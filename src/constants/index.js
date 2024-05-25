@@ -14,7 +14,7 @@ export const EXPERIENCES = [
     role: "Software Developer Intern",
     company: "ITE Infotech",
     description: `Worked with my team to build client web projects using React, Node , Postgres etc, and eventually deploying them on AWS servers.`,
-    technologies: ["Javascript", "React.js", "Linux", "mongoDB","AWS","Lambda","EC2","S3", "Postgres","Node.js"],
+    technologies: ["Javascript", "React.js", "Linux", "mongoDB","AWS","Lambda","EC2","S3", "ALB" , "ECS" , "Cloudfront" , "Postgres","Node.js"],
   },
  
 ];
@@ -24,29 +24,29 @@ export const PROJECTS = [
     title: "Full Stack Blog App",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A fully functional Blogging platform for amateurs and professionals ensuring creativity , efficiency and security. Implemented user authentication + authorization including OAuth2.0.",
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB","Express" ,"JWT" ,"Oauth2"],
   },
   {
     title: "Highly Scalable Realtime ChatApp",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A realtime Chat App that scales easily on production. Used Redis PubSub along with Node + Sokckets and deployment on AWS Fargate . 99% uptime ensured using modern aws cloud strategies.",
+    technologies: ["Node", "Sockets.io" ,"Docker",  "React" , "Redis" , "AWS" ],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["TailwindCSS", "React", "Vite" , "Framer Motion" ],
   },
   {
-    title: "Blogging Platform",
+    title: "Ai Youtube Summarizer - OpenAI FullStack Project",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "A platform for creating notes directly from youtube videos saving 70% of users time and increasing productivity. Leveraged Gemini Pro Ai API and Python Django Backend for the same. ",
+    technologies: ["Python", "Django", "REST", "OpenAI", "React", "TailwindCSS"],
   },
 ];
 
