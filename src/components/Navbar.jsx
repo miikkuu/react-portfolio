@@ -14,7 +14,7 @@ export const Navbar = () => {
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
         id="main"
-        className="m-8 px-20 flex items-center justify-center gap-4 text-4xl bg-gray-500 p-4 rounded-full nav-gradient"
+        className="m-8 px-10 lg:px-20  flex items-center justify-center gap-4 text-4xl bg-gray-500 p-4 rounded-full nav-gradient"
       >
         <motion.a
           href="https://linkedin.com/in/contactyashraj"
