@@ -57,7 +57,7 @@ export const Navbar = () => {
         </motion.a>
 
         <motion.a
-          href="mailto:your-email@example.com"
+          href="mailto:yshraj.work@gmail.com"
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
         >
