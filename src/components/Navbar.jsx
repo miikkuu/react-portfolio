@@ -47,7 +47,7 @@ export const Navbar = () => {
         </motion.a>
 
         <motion.a
-          href="https://drive.google.com/file/d/1sLWg8af33INfstSqzYHxdv0WW0afnvAI/view?usp=sharing"
+          href="https://drive.google.com/file/d/1WEmRbGbAlvLuiuQTyFE0a1blbVJ046kI/view?usp=sharing"
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
           target="_blank"
