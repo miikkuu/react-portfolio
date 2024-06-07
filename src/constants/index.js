@@ -20,12 +20,12 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  { livelink:"https://www.google.com", // "https://www.google.com"
+  { livelink:"https://github.com/miikkuu/i-blogify", // "https://www.google.com"
     title: "Full Stack Blog App",
     image: project1,
     description:
       "A fully functional Blogging platform for amateurs and professionals ensuring creativity , efficiency and security. Implemented user authentication + authorization including OAuth2.0.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB","Express" ,"JWT" ,"Oauth2"],
+    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB","Express" ,"JWT" ,"Oauth2" , "Bootstrap" ],
   },
   {
     title: "Highly Scalable Realtime ChatApp",
@@ -35,6 +35,7 @@ export const PROJECTS = [
     technologies: ["Node", "Sockets.io" ,"Docker",  "React" , "Redis" , "AWS" ],
   },
   {
+    livelink: "https://github.com/miikkuu/react-portfolio/",
     title: "Portfolio Website",
     image: project3,
     description:
